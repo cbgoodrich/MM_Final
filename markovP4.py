@@ -14,7 +14,7 @@ while j < 10:
     for forklift in forkliftList:
         randNum = randint(0,132)
         if forkliftList[i] == "broken":
-
+            james = 0
         else:
             if randNum <= 1:
                 forkliftList[i] = "broken"
