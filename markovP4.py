@@ -4,18 +4,20 @@
 
 from random import randint
 
-forkliftList = ["working"]*27
+forkLiftList = ["working"]*27
+timeList = [0]*27
 
-j = 0
-
-inShop = 0
 i = 0
-for forklift in forkliftList:
+inShop = False
+timeShop = 0
+for lift in forkLiftList:
     randNum = randint(0,132)
-    if forkliftList[i] == "broken":
-        james = 0
-    else:
-        if randNum <= 1:
-            forkliftList[i] = "broken"
-            inShop += 1
-    i += 1
+    if fork
+    if randNum == 1:
+        forkLiftList[i] = "broken"
+        timeList[i] += 1
+        shopStatus = True
+    if timeList[i] == 3:
+        forkLiftList[i] = "working"
+        timeShop += 3
+        
